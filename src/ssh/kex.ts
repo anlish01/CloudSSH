@@ -13,7 +13,7 @@ export class KEXInitBuilder {
 
     const algorithmLists = [
       'ecdh-sha2-nistp256',
-      'rsa-sha2-256,ssh-rsa',
+      'ssh-ed25519,ecdsa-sha2-nistp256,rsa-sha2-512,rsa-sha2-256,ssh-rsa',
       'aes256-gcm@openssh.com,aes128-gcm@openssh.com',
       'aes256-gcm@openssh.com,aes128-gcm@openssh.com',
       'none',

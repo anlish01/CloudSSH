@@ -100,7 +100,12 @@ export class SSHSession {
           leftover = null;
         } else {
           const result = await reader.read();
-          if (result.done) break;
+          if (result.done) {
+            console.log('[SSH] Socket closed (EOF)');
+            this.sendError('SSH 服务器断开连接 (Socket closed by remote)');
+            this.close();
+            break;
+          }
           value = result.value;
         }
 
