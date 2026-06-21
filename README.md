@@ -7,7 +7,7 @@
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
     <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white">
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white">
-    <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black">
+    <img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white">
   </p>
   <p>
     <a href="#highlights">核心优势</a> ·
@@ -53,7 +53,7 @@
 ### 开箱即用
 
 - **一键部署**：通过 Wrangler 工具，一句命令即可完成项目构建与部署。
-- **现代化前端技术栈**：React + TypeScript + Vite + Tailwind CSS，配合 xterm.js 提供丝滑的终端体验。
+- **现代化前端技术栈**：TypeScript + Vite + Tailwind CSS，配合 xterm.js 提供丝滑的终端体验。
 
 ### 安全可靠
 
@@ -78,7 +78,7 @@
 
 ```mermaid
 flowchart TB
-    Browser["浏览器客户端<br/>(React + xterm.js)"]
+    Browser["浏览器客户端<br/>(TypeScript + xterm.js)"]
     CF["Cloudflare Edge Network"]
     DO["Durable Object<br/>(SSH 会话管理)"]
     Server["目标 SSH 服务器<br/>(如 Linux VPS)"]

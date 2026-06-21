@@ -7,7 +7,7 @@
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"></a>
     <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white">
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white">
-    <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black">
+    <img alt="Vite" src="https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white">
   </p>
   <p>
     <a href="#highlights">Highlights</a> ·
@@ -53,7 +53,7 @@
 ### Out of the Box
 
 - **One-Click Deployment**: Build and deploy the project with a single command using the Wrangler CLI.
-- **Modern Frontend Stack**: React + TypeScript + Vite + Tailwind CSS, paired with xterm.js to provide a silky smooth terminal experience.
+- **Modern Frontend Stack**: TypeScript + Vite + Tailwind CSS, paired with xterm.js to provide a silky smooth terminal experience.
 
 ### Secure and Reliable
 
@@ -78,7 +78,7 @@
 
 ```mermaid
 flowchart TB
-    Browser["Browser Client<br/>(React + xterm.js)"]
+    Browser["Browser Client<br/>(TypeScript + xterm.js)"]
     CF["Cloudflare Edge Network"]
     DO["Durable Object<br/>(SSH Session Management)"]
     Server["Target SSH Server<br/>(e.g., Linux VPS)"]
