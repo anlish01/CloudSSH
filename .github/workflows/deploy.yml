@@ -1,8 +1,8 @@
 name: Deploy to Cloudflare Workers
 
-于:
+on:
   push:
-    分支: [test, main]
+    branches: [test, main]
     paths-ignore:
       - '*.md'
       - 'LICENSE'
@@ -10,7 +10,7 @@ name: Deploy to Cloudflare Workers
 
 jobs:
   deploy:
-    if: github.repository_owner == 'anlish01'
+    if: github.repository_owner == 'newbietan'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
