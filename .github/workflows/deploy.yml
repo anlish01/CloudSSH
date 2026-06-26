@@ -1,8 +1,8 @@
 name: Deploy to Cloudflare Workers
 
-on:
+于:
   push:
-    branches: [test, main]
+    分支: [test, main]
     paths-ignore:
       - '*.md'
       - 'LICENSE'
